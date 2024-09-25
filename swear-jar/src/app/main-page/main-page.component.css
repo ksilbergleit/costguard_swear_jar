@@ -1,4 +1,17 @@
+.page{
+    background-color:azure;
+    height: 100%;
+}
 .page-layout
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+    height: 100%;
+}
+
+.balance
 {
     display: flex;
     flex-direction: column;
@@ -8,4 +21,5 @@
 .header{
     align-items: center;
 }
+
 

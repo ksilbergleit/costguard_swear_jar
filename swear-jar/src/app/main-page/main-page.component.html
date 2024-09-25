@@ -1,9 +1,18 @@
-<div class="page-layout">
-    <h1 class="header">Costguard IDI swear jar</h1>
-    <button>Add</button>
-    <h1>JAR</h1>
-    <label>current balance</label>
-    <label>total balance</label>
-    <button>empty jar</button>
+<div class="page">
+    <div class="page-layout">
+        <h1 class="header">Costguard IDI swear jar</h1>
+        <button mat-stroked-button (click)="add()">Add</button>
+        <!-- <img src="Jar.png" alt="Empty Jar"> -->
+        <div class="balance">
+            <label>current balance</label>
+            <label>{{currentBalance}}</label>
+        </div>
+        <div class="balance">
+            <label>total balance</label>
+            <label>{{totalBalance}}</label>
+        </div>
+        <button mat-flat-button (click)="empty()">empty jar</button>
+    </div>
 </div>
+
 
